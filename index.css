@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    padding: 1em;
+    border-bottom: 1px solid black;
+    width: 100vw;
+    z-index: 100;
+}
+
+main {
+    min-height: 100vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+footer {
+    padding: 1em;
+    border-top: 1px solid black;
+}
+
+.noticias {
+    margin-top: 2em;
+}
+
+.noticia h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
